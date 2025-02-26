@@ -19,6 +19,7 @@ a {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    min-width: 500px;
     background-image: url(assets/halie-west-25xggax4bSA-unsplash.jpg);
     background-color: #cccccc;
     background-position: center;
@@ -55,6 +56,27 @@ a {
 
 .rightContainer {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     flex-grow: 2;
+}
+
+.dummyParagraph {
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    flex: auto;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.signUpForm {
+    display: flex;
+    flex: auto;
+}
+
+.signUp {
+    display: flex;
+    flex: auto;
 }
