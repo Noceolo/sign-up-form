@@ -3,8 +3,16 @@
     src: url(assets/Norse-Bold.otf);
 }
 
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 body{
     margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 a {
@@ -12,7 +20,7 @@ a {
 }
 .container {
     display: flex;
-    min-height: 700px;
+    min-height: 100%;
 }
 
 .leftContainer {
@@ -59,6 +67,7 @@ a {
     justify-content: space-between;
     flex-direction: column;
     flex-grow: 2;
+    
 }
 
 .dummyParagraph {
@@ -69,14 +78,27 @@ a {
     flex: auto;
     padding: 30px;
     font-size: 20px;
+    
 }
 
 .signUpForm {
     display: flex;
     flex: auto;
+    padding: 30px;
 }
 
 .signUp {
     display: flex;
     flex: auto;
+    flex-direction: column;
+    justify-content: start;
+    padding: 30px;
+}
+
+#submitButton{
+    font-size: 20px;
+    padding: 14px 40px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: green;
 }
