@@ -24,7 +24,7 @@
 
             </div>
             <div class="signUpForm">
-                <form action="" method="post">
+                <form id="userForm" method="post">
 
                     <label for="firstName">FIRST NAME</label>
                     <input type="text" name="userFirstName" id="firstName">
@@ -45,7 +45,9 @@
                     <input type="password" name="confirmPassword" id="confirmPassword">
                 </form>
             </div>
-            <div class="signUp">the sign up btn space the the bottom</div>
+            <div class="signUp">
+                <button type="submit" form="userForm" name="submit" id="submitButton">Create account</button>
+            </div>
         </div>
     </div>
 </body>
