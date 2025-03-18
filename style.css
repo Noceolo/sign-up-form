@@ -13,6 +13,7 @@ body{
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -82,9 +83,11 @@ a {
 }
 
 .signUpForm {
+    position: relative;
     display: flex;
     flex: auto;
     padding: 30px;
+    box-shadow: 0 4px 5px -2px gray;
 }
 
 .signUp {
@@ -92,7 +95,9 @@ a {
     flex: auto;
     flex-direction: column;
     justify-content: start;
+    background-color: #eeeeee;
     padding: 30px;
+    
 }
 
 #submitButton{
@@ -100,5 +105,11 @@ a {
     padding: 14px 40px;
     border-radius: 8px;
     border: 0px;
-    background-color: green;
+    background-color: #596D48;
+    color: white;
+}
+
+#greenLink{
+    text-decoration: none;
+    color: #596D48;
 }
