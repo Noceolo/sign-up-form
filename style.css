@@ -110,6 +110,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    
 }
 
 
@@ -130,4 +131,18 @@ a {
 label,input{
     display:flex;
     flex-direction:column;
+  }
+
+input{
+    border: solid 1px grey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px -2px grey;
+}
+
+  input:required:invalid{
+    border-color: red;
+  }
+
+  input:focus{
+    border-color: blue;
   }
