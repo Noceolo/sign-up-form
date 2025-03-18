@@ -68,7 +68,6 @@ a {
     justify-content: space-between;
     flex-direction: column;
     flex-grow: 2;
-    
 }
 
 .dummyParagraph {
@@ -84,8 +83,6 @@ a {
 
 .signUpForm {
     position: relative;
-    display: flex;
-    flex: auto;
     padding: 30px;
     box-shadow: 0 4px 5px -2px gray;
 }
@@ -113,3 +110,8 @@ a {
     text-decoration: none;
     color: #596D48;
 }
+
+label,input{
+    display:flex;
+    flex-direction:column;
+  }
