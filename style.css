@@ -101,9 +101,8 @@ a {
 .mainForm{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
     padding: 20px;
+    padding-right: 150px;
 }
 
 #userForm{
@@ -131,6 +130,7 @@ a {
 label,input{
     display:flex;
     flex-direction:column;
+    
   }
 
 input{
@@ -145,4 +145,14 @@ input{
 
   input:focus{
     border-color: blue;
+  }
+
+  label{
+    font-size: 10px;
+  }
+
+  .formContainer{
+    padding-right: 50px;
+    padding-bottom: 20px;
+
   }
